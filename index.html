@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | Spear Mania</title>
+    <title>Unity WebGL Player | SpearMania</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -57,16 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/SpearManiaBuild.loader.js";
+      var loaderUrl = buildUrl + "/SpearMania.loader.js";
       var config = {
-        arguments: [],
-        dataUrl: buildUrl + "/SpearManiaBuild.data",
-        frameworkUrl: buildUrl + "/SpearManiaBuild.framework.js",
-        codeUrl: buildUrl + "/SpearManiaBuild.wasm",
+        dataUrl: buildUrl + "/SpearMania.data",
+        frameworkUrl: buildUrl + "/SpearMania.framework.js",
+        codeUrl: buildUrl + "/SpearMania.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Spear Mania",
-        productVersion: "0.1.0",
+        productName: "SpearMania",
+        productVersion: "0.1",
         showBanner: unityShowBanner,
       };
 
@@ -85,8 +84,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-
-      canvas.style.background = "url('" + buildUrl + "/SpearManiaBuild.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/SpearMania.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
