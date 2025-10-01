@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-SpearMania-0.1";
 const contentToCache = [
-    "Build/SpearMania.loader.js",
-    "Build/SpearMania.framework.js",
-    "Build/SpearMania.data",
-    "Build/SpearMania.wasm",
+    "Build/build1.loader.js",
+    "Build/build1.framework.js",
+    "Build/build1.data",
+    "Build/build1.wasm",
     "TemplateData/style.css"
 
 ];

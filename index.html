@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/SpearMania.loader.js";
+      var loaderUrl = buildUrl + "/build1.loader.js";
       var config = {
-        dataUrl: buildUrl + "/SpearMania.data",
-        frameworkUrl: buildUrl + "/SpearMania.framework.js",
-        codeUrl: buildUrl + "/SpearMania.wasm",
+        dataUrl: buildUrl + "/build1.data",
+        frameworkUrl: buildUrl + "/build1.framework.js",
+        codeUrl: buildUrl + "/build1.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "SpearMania",
@@ -84,7 +84,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-      canvas.style.background = "url('" + buildUrl + "/SpearMania.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/build1.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
