@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-SpearMania-1.1";
+const cacheName = "DefaultCompany-SpearMania-1.2";
 const contentToCache = [
     "Build/SpearMania.loader.js",
     "Build/SpearMania.framework.js",
